@@ -20,68 +20,70 @@
       <li><a href="#">support</a></li>
     </ul>
   </nav>
-  <section id="title">
+  <div class="clear-float">
+  </div>
+  <section class="section1">
     <div class="search-area">
-    <a href="#"><img src="./images/npm-logo.png" alt="npm" class="logo"></a>
-    <input type="text" name="pkgfind" value="find packages" class="search-bar">
-    <button type="submit" name="pkgfindsubmit"><img src="" alt="search"></button>
-    <a href="#" class="sign-up1">sign up or log in</a>
+      <a href="#"><img src="./images/npm-logo.png" alt="npm" class="logo"></a>
+      <div class="search-bar">
+        <input type="search" name="pkgfind" value="find packages" class="left-search-bar">
+        <input type="submit" name="pkgfindsbmt" value="?" class="right-search-bar">
+      </div>
+      <a href="#" class="sign-up1">sign up or log in <img src="./images/bear-logo.png" alt="bear" height= "50px" width="50px"></a>
     </div>
     <div class="clear-float">
-
     </div>
     <div class="text1">
-    <h1>Build amazing things</h1>
-    <p class = "paragraph">npm is the package manager for JavaScript and the world's largest software registry. Discover packages of reusable code - and assemble them in powerful ways.</p>
-    <a href="#" class="sign-up2">Sign up for npm</a>
-    <img src="./images/city-scape.svg" alt="city scape" class="city-scape">
+      <h1>Build amazing things</h1>
+      <p>npm is the package manager for JavaScript and the world's largest software registry. Discover packages of reusable code - and assemble them in powerful ways.</p>
+      <br>
+      <a href="#" class="sign-up2">Sign up for npm</a>
     </div>
     <div class="clear-float">
-
     </div>
   </section>
-  <section>
+  <section class="section2">
     <div class="collaboration">
-      <div class="collab-img">
-    <img src="./images/collaboration.svg" alt="collaboration">
-    </div>
-    <div class="text3">
-      <h2>npm Orgs is powerful collaboration - for free</h2>
-      <ul>
-        <li>Encourage code discovery and re-use within teams</li>
-        <li>Publish and control access to your own namespace</li>
-        <li>Manage public and private code with the same workflow</li>
-      </ul>
-      <a href="#"><h3 class="signup3">Sign up for Orgs</h3></a>
-      <p>or <a href="#">Learn more about Orgs</a></p>
+      <img src="./images/collaboration.svg" alt="collaboration" class="colab-img">
+      <div class="text2">
+        <h2>npm Orgs is powerful collaboration - for free</h2>
+        <ul class="npm-list">
+          <li>Encourage code discovery and re-use within teams</li>
+          <li>Publish and control access to your own namespace</li>
+          <li>Manage public and private code with the same workflow</li>
+        </ul>
+        <a href="#" class="sign-up3">Sign up for Orgs</a>
+        <p>or <a href="#" class="learn-more">Learn more about Orgs</a></p>
       </div>
     </div>
     <div class="clear-float">
-
     </div>
   </section>
-  <section id="install-npm">
+  <section class="section3">
     <div class="npm">
-    <h2>What is npm?</h2>
-    <p>Use npm to install share and distribute code; manage dependencies in your projects; and share & receive feedback with others.</p>
-    <a href="#">Install npm</a>
-      <img src="./image/forklift.svg" alt="forklift">
+      <h2>What is npm?</h2>
+      <p>Use npm to install share and distribute code; manage dependencies in your projects; and share & receive feedback with others.</p>
+      <a href="#" class="install">Install npm</a>
     </div>
   </section>
-  <section id="description">
-    <div class="desc">
-      <h2>What can you make with 475,000 building blocks?</h2>
-      <p>The npm registry hosts almost half a million packages of free reusable code - the largest software registry in the world</p>
+  <section class="section4">
+    <h2>What can you make with 475,000 building blocks?</h2>
+    <p>The npm registry hosts almost half a million packages of free reusable code - the largest software registry in the world</p>
+    <article class="col col-3">
       <img src="./images/binoculars.svg" alt="binoculars">
       <h3>Find</h3>
-      <p>Libraries like <a href="#">JQuery</a>,<a href="#">Bootstrap</a>,<a href="#">React</a>, and <a href="#">Angular</a>, and components from frameworks such as <a href="#">Ember</a></p>
+      <p>Libraries like <a href="#">JQuery </a>, <a href="#">Bootstrap</a>, <a href="#">React</a>, and <a href="#">Angular</a>, and components from frameworks such as <a href="#">Ember</a></p>
+    </article>
+    <article class="col col-3 col-middle">
       <img src="./images/mountain-flag.svg" alt="mountain flag">
       <h3>Discover</h3>
       <p>Packages for mobile, IoT, front end, back end, robotics...everything you need to start building amazing things</p>
+    </article>
+    <article class="col-3 col">
       <img src="./images/backpack.svg" alt="backpack">
       <h3>Build</h3>
       <p>Assemble packages like building blocks to quickly develop awesome new projects</p>
-    </div>
+    </article>
   </section>
 </body>
 </html>
